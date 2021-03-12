@@ -19,10 +19,22 @@ nav ul {
   background-color: #eee8d5;
 }
 
-h2 {
+#favs, #facts, #types, #contents {
   color: #93a1a1;
 }
 
 .wrapper .dfn {
   background-color: #b58900;
+}
+
+.dfn strong:nth-child(2) {
+  color: #fff;
+}
+
+a:not(.no-highlight) {
+  background-color: #719e07;
+}
+
+ul li:"rel="external"" {
+background-color: #2694d8;
 }
